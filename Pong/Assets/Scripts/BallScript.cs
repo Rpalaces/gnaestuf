@@ -8,7 +8,7 @@ public class BallScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        position = new Vector2(Random.Range(-100, 100), Random.Range(-100, 100));
+        position = new Vector2(Random.Range(-100, 100), Random.Range(-101, 100));
         this.GetComponent<Rigidbody>().AddForce(position);
     }
 }
